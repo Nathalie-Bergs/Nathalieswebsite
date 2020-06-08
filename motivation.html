@@ -24,13 +24,18 @@
 
 	<body>
 		<!-- Navigation bar-->
-		<div class="navbar">
-		  <a href="index.html"><i class="fa fa-home"></i> Home</a>
-		  <div class="dropdown">
-		   	<button class="dropbtn">About</button>
-		    <div class="dropdown-content" id="about">
-		   		<ul class="list-vertical" style="list-style-type: none">
-		    		<li> 
+<div class="navbar">
+			<div id="nav">
+		 		<a href="index.html"  onmouseover="mouseOut('')"><i class="fa fa-home"></i> Home</a>
+		   		<a href="index.html" onmouseover="mouseOver('about')"  class="dropbtn">About</a>
+		    	<a href="index.html" onmouseover="mouseOver('Experience')" class="dropbtn"class="dropbtn">Experience</a>
+		  		<a href="motivation.html"  onmouseover="mouseOut('')">Motivation letter</a>
+		  		<a href="contact.html"   onmouseover="mouseOut('')" id="contactlink">Contact me</a>
+			</div>
+			<div>
+				<div onmouseover="mouseOver('about')" onmouseout="mouseOut('')" class="dropdown-content" id="about">
+		   			<ul class="list-vertical" style="list-style-type: none">
+		    			<li> 
 		    			<h1>About</h1>
 		    		</li>
 		      		<a href="about.html">At a glance</a>
@@ -38,10 +43,7 @@
 		      		<a href="about.html#Passions">Passions</a>
 		  		</ul>
 		  	</div>
-		  </div>
-		  <div class="dropdown">
-		    <button class="dropbtn" >Experience</button>
-		    <div class="dropdown-content" id="Experience" >
+		  <div onmouseover="mouseOver('Experience')" onmouseout="mouseOut('')"  class="dropdown-content" id="Experience">
 		    	<ul class="list-vertical" style="list-style-type: none">
 		    		<li> 
 		    			<h1>Experience</h1>
@@ -51,8 +53,6 @@
 		      	</ul>
 		  	</div>
 		  </div>
-		  <a href="motivation.html">Motivation letter</a>
-		  <a href="contact.html" style="color:rgb(150,150,150)">Contact me</a>
 		</div>
 
 		<!-- Page  -->
