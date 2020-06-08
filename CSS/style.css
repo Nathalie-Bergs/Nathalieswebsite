@@ -227,9 +227,17 @@ a:hover {
     width: 100%;
     text-align: center;
     height: 400px;
-  }
+  	}
+  	#leftcolumn {
+		display: none;
+	}
+	#middlecolumn {
+		display: none;
+	}
+	#introd {
+		font-size: 14px;
+	}
 }
-
 @media (max-width: 1000px) {
 
 .box-contact {
