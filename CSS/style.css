@@ -1,0 +1,397 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700|Noto+Sans+KR:400,700|PT+Sans:400,700|Roboto:400,700&display=swap);
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/navbar.css");
+@import url("components/figure.css");
+@import url("components/timelinecopy.css");
+@import url("components/logo.css");
+
+
+/* Colors and fonts */
+
+/* Emerton 
+	colors: 
+	background: rgb(255,255,255) = white
+	boxes/text: rgb(14,65,80) = dark blue 
+		   rgb(60,166,172) = light blue 
+		   rgb(232,247,245) = lighter blue
+		   rgb(237,237,237) = light grey
+	Fonts: 
+	title: 	font-family: 'Rochester', cursive;
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(255,255,255);
+	color: rgb(255,255,255);
+	font-family:'Hind', serif;
+	font-size: 16px;
+}
+
+
+h1 {
+	font-family: 'Hind', sans-serif;
+	color: rgba(60,166,172,0.8);
+	letter-spacing: 0px;
+	font-size: 30px;
+	font-weight: lighter;
+	text-align: center;
+	/*font-style: italic;*/
+	/*font-weight: bold ;*/
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+h3, p1  {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	color: rgba(255,255,255,0.8);
+	font-weight: lighter;
+	padding: 150px 20px 20px 20px;
+	text-align: center;
+}
+
+p1 {
+	font-size: 20px;
+	color: rgb(14,65,80);
+	font-weight: lighter;
+	/*text-justify: center;*/
+}
+
+p2 { /*used in About tab */
+	font-size: 18px;
+	color: rgb(14,65,80);
+	font-weight: lighter;
+	text-align: center;
+}
+
+h4 { 
+	font-family: 'Caladea', serif;
+	color: rgba(60,166,172,0.8);
+	letter-spacing: 0px;
+	font-size: 30px;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 120px;
+	/*font-style: italic;*/
+	/*font-weight: bold ;*/
+
+ }
+
+/* text in white boxes */
+h5 { 
+	font-family: 'Hind', sans-serif;
+	color: rgb(14,65,80);
+	font-size: 15px;
+	font-weight: lighter;
+ }
+
+
+/* text in dark boxes on academical page*/
+h6 { 
+	font-family: 'Hind', sans-serif;
+	color: rgb(255,255,255);
+	font-size: 22px;
+	font-weight: lighter;
+	text-align: center;
+	margin: auto;
+	margin-top: 5px;
+	padding: 25px 0px 0px 0px;
+ }
+
+/*
+a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold; 
+	color: rgba(20,0,150,0.8);
+}
+a:hover { 
+	color: red; 
+}
+*/
+
+/* Custom design with class*/
+
+
+.box-light {
+	background-color:rgb(60,166,172);
+	padding: 20px 40px 20px 40px;
+	/*margin: 40px 200px 40px -290px;*/
+	margin: 60px -40% 60px 15%;
+	box-shadow: 0px 20px 20px rgba(0,0,0,0.2);  /* rgba(150,10,0,0.1);*/
+	border-radius: 0px;
+	text-align: left; 
+}  
+
+.box-dark {
+	background-color: rgb(14,65,80);
+	padding: 20px 40px 20px 40px;	
+	/*margin: 40px -10px 40px 200px;*/
+	margin: 60px 15% 60px -2%;
+	box-shadow: 0px 20px 20px rgba(0,0,0,0.2);
+	border-radius: 0px;
+	text-align: left;
+}
+
+#guide {
+	padding: 20px 20px 20px 40px ;
+	margin: 0% -2% 0% 20%;
+}
+
+.box-title {
+	background-color: rgb(255,255,255);
+	padding: 20px 10px 10px 10px ;
+	margin: 10px 10px 10px 10px;
+	border-radius: 0px;
+	text-align: left;
+}
+
+.box-white {
+	background-color: white;
+	padding: 20px 40px 20px 40px;
+	margin: -1000px 0px 60px 30%;
+	text-align: left;
+	color: red;
+	display: inline-block;
+}
+#motivation {
+	margin: 40px 0px;
+	padding: 20px 20px 40px 20px;
+	text-align: justify;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.box-contact {
+	padding: 40px 20px 0px 180px ;
+	margin: -240px 0px 0px 200px;
+	border-radius: 0px;
+	text-align: center;
+	display: block;
+}
+
+
+.col-container {
+	display: flex;
+	background-color: rgb(14,65,80);
+	padding: 0px 0px 0px 0px;	
+	margin: 0px 0% 80px -20%;
+	box-shadow: 0px 20px 20px rgba(0,0,0,0.2);
+	border-radius: 0px;
+	text-align: left;
+	vertical-align: middle;
+	/*width: 100%; /*Set full-width to expand the whole page */
+}
+
+.col {
+    flex:1; /* Make elements inside the container behave like table cells */
+    vertical-align: middle;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  background-color: rgb(60,166,172);
+  height: 240px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+    text-align: center;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1000px) {
+
+.box-contact {
+	padding: 40px 20px 0px 180px ;
+	margin: -240px 0px 0px 150px;
+	border-radius: 0px;
+	text-align: center;
+	display: block;
+	}
+
+	h3 {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	color: rgba(255,255,255,0.8);
+	font-weight: lighter;
+	padding: 60px 20px 20px 20px;
+	text-align: center;
+	}
+
+	p1 {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(14,65,80)
+	font-weight: lighter;
+	padding: 60px 20px 20px 20px;
+	text-align: center;
+	}
+
+@media (max-width: 820px) {
+	.box-contact {
+		padding: 40px 20px 0px 20px ;
+		margin: 0px auto 0px auto;
+		border-radius: 0px;
+		text-align: center;
+		display: block;
+	}
+
+	h3 {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	color: rgba(255,255,255,0.8);
+	font-weight: lighter;
+	padding: 10px 20px 20px 20px;
+	text-align: center;
+	}
+
+	p1 {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(14,65,80)
+	font-weight: lighter;
+	padding: 60px 20px 20px 20px;
+	text-align: center;
+	}
+
+}
+
+@media (max-width: 720px) {
+	.box-light {
+		/*background-color:red;*/
+		margin: 60px -2% 60px 15%;
+		padding: 20px 20px 20px 40px;
+	}
+	.box-dark {
+		/*background-color:red;*/
+		margin: 60px 15% 60px -2%;
+		padding: 20px 20px 20px 40px;
+		overflow: hidden;
+	}
+	.box-title {
+		/*background-color:red;*/
+		margin: 40px -10px 40px 20px;
+		padding: 20px 20px 40px 20px;
+	}
+	#guide {
+		margin: -350px 0px 40px -10px;
+		padding: 20px 20px 20px 20px ;
+	}
+
+	h3 {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	color: rgba(255,255,255,0.8);
+	font-weight: lighter;
+	padding: 50px 20px 20px 20px;
+	text-align: center;
+	}
+
+	p1 {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(14,65,80)
+	font-weight: lighter;
+	padding: 60px 20px 20px 20px;
+	text-align: center;
+	}
+}
+
+
+@media (max-width: 600px) {
+	.box-light {
+		margin: 60px auto;
+		padding: 20px 20px 20px 20px;
+	}
+	.box-dark {
+		/*background-color: yellow;*/
+		margin: 60px auto;
+		padding: 20px 20px 20px 20px;
+		overflow: hidden;
+	}
+	.box-title {
+		/*background-color: yellow;*/
+		margin: 20px auto;
+		padding: 20px 20px 40px 20px;
+	}
+	#guide {
+		margin: -300px 0px 40px -10px;
+		padding: 20px 20px 20px 20px ;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.list-vertical {
+	padding-left: 0px;
+	margin: 10px 0px 8px 0px;
+}
+
+.list-center {
+	padding-left: 0px;
+	margin: 10px 0px 30px 0px;
+	text-align: center;
+}
+
+.list-inline {
+	list-style: none; /*get rid of the bullet points*/ 
+	padding-left: 0px; /*get rid of the padding on the left */
+}
+
+.list-inline li {  /*descendant selector (select items inside another element)*/
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i { /* i stands for the icons*/
+font-size: 30px;
+color: rgba(100,0,150,0.8);
+ }
+
+.list-inline i:hover { /* i stands for the icons*/
+color: rgba(0,0,230,0.8);
+ }
+
+
+

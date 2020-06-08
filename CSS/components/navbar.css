@@ -1,0 +1,123 @@
+/* Colors and fonts */
+
+/* Emerton 
+  colors: 
+  background: rgb(255,255,255) = white
+  boxes/text: rgb(14,65,80) = dark blue 
+       rgb(60,166,172) = light blue 
+       rgb(232,247,245) = lighter blue
+       rgb(237,237,237) = light grey
+       rgb(220,220,220) = light grey zelf gemaakt
+  Fonts: 
+  title:  font-family: 'Rochester', cursive;
+*/
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color:rgb(255,255,255);
+  font-family:'Roboto', serif;
+  /*font-weight: bold;*/
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+  z-index: 1;
+}
+/*
+.box-grey {
+  background-color: rgb(237,237,237);
+  overflow: hidden;
+  height: 300px;
+  margin: 0px 0px 0px -10px;
+  z-index: -1;
+  position: relative;
+}
+*/
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(60,166,172);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*#contact a {
+  color: rgb(237,237,237);
+}*/
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(60,166,172);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(255,255,255);
+  color:rgb(14,65,80) ;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position:absolute;
+  background-color: rgb(14,65,80);
+  padding: 12px 16px;
+  /*transition: all 0.03s ease-out */;
+  /*width: -8000px;*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width:101%;
+  text-align: center;
+  margin: 0px 0px 0px -17.6%;
+}
+
+#Experience {
+  margin: 0px 0px 0px -14.4%;
+}
+
+#about {
+  margin: 0px 0px 0px -9%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: rgb(220,220,220);  
+  padding: 12px 16px;
+  text-decoration: none;
+  /*display: inline-block;*/  
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(14,65,80);
+  color: rgb(255,255,255);
+  text-decoration: underline;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display:block;
+  transition: all 3s ease-out ;
+
+}
+

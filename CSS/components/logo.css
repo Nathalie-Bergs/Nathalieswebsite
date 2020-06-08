@@ -1,0 +1,53 @@
+.logo { 
+	max-width: 20%;
+	display: inline-block ;
+}
+
+.KUL {
+	max-width: 25%;
+	margin: -5% -20% 0% 85%;
+}
+
+.KSOM {
+	max-width: 15%;
+	margin: -8% 0% 0% 90%;
+	border-radius: 4px;
+}
+
+.lisbon {
+	max-width: 25%;
+	margin: 0% -20% 0% 85%;
+} 
+
+.ieseg {
+	max-width: 25% ;
+	background-color: white;
+	padding: 5px;
+	margin: -5% -20% 0% 85%;
+}
+
+.mines {
+
+	padding: 5px;
+	margin: 0% -20% 0% 85%;
+}
+
+.hollandbikes {
+	padding: 5px;
+	margin: -4% 20% 0% 80%;
+}
+
+.python {
+	width: 100px;
+	max-width: none;
+}
+
+.office {
+	width: 200px;
+	max-width: none;
+}
+
+@media screen and (max-width: 600px) {
+	.logo {
+		display: none;
+	}

@@ -1,0 +1,88 @@
+.figure { 
+	max-width: 20%;
+	display: inline-block ;
+	margin: 20px 20px 20px -10px;
+}
+
+.guidefigure {
+	position: relative;
+	max-width: 35%;
+	z-index: 0;
+	display: inline-block;
+	float: left;
+}
+
+.group {
+  	height: 500px;
+  	object-fit: cover;
+  	width: 7 0%;
+	margin: 5px 0px 0px -200px;
+	position: relative;
+	z-index: -1;
+	display: inline-flex;
+}
+
+.profilepic {
+	width: 100%;
+	/*box-sizing: border-box;*/
+	/*height: 10%;*/
+	float: left;
+}
+
+.paris {
+	background-image: linear-gradient(270deg, rgba(237,237,237,0.5) 100%,rgba(323,247,245,0.1) 0%),url(../../images/paris.jpg);
+	margin: -300px 250px 0px 250px;
+	padding: 200px 0px 150px 0px;
+	background-size: cover;
+	background-position: left;
+	position: relative;
+	z-index: -1;
+}
+
+.box-grey {
+	background-color: rgb(237,237,237);
+	overflow: hidden;
+	height: 300px;
+	margin: 0px 0px 0px -10px;
+	z-index: -1;
+	position: relative;
+}
+
+.tennis {
+	max-width: 80%;
+}
+
+@media (max-width: 1000px) {
+	.paris {
+	background-image: linear-gradient(270deg, rgba(237,237,237,0.5) 100%,rgba(323,247,245,0.1) 0%),url(../../images/paris.jpg);
+	margin: -300px 150px 0px 150px;
+	padding: 200px 0px 150px 0px;
+	background-size: cover;
+	background-position: left;
+	position: relative;
+	z-index: -1;	
+	}
+
+@media (max-width: 720px) {
+	.paris {
+	background-image: linear-gradient(270deg, rgba(237,237,237,0.5) 100%,rgba(323,247,245,0.1) 0%),url(../../images/paris.jpg);
+	margin: -300px 100px 0px 100px;
+	padding: 200px 0px 150px 0px;
+	background-size: cover;
+	background-position: left;
+	position: relative;
+	z-index: -1;	
+	}
+
+@media (max-width: 600px) {
+	.paris {
+	background-image: linear-gradient(270deg, rgba(237,237,237,0.5) 100%,rgba(323,247,245,0.1) 0%),url(../../images/paris.jpg);
+	margin: -300px 20px 0px 20px;
+	padding: 200px 0px 150px 0px;
+	background-size: cover;
+	background-position: left;
+	position: relative;
+	z-index: -1;	
+	}
+
+
