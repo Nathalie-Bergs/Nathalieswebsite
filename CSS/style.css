@@ -239,21 +239,35 @@ a:hover {
 	text-indent: 15px ;
 }
 
-.tennis {
-	background-image: url(../images/tennis.jpg);
-	opacity: 0.5;
+.passionContainer {
 	color: black;
 	margin: 0px 15px 0px 15px;
-	padding: 60px 0px 350px 0px;
-	background-size: cover;
-	background-position: center;
+	height: 460px;
 	position: relative;
 	z-index: -10;
-} 
+}
 
-.tennis .container {
+.passionImage{
+	background-image: url(../images/tennis.jpg);
+	opacity: 0.5;
+	height: 460px;
+	background-size: cover;
+	background-position: center;
+}
+
+.passionTitle{
+	padding: 33% 0 30px 0;
+	color: black;
+	text-align: left;
+}
+
+.passionContainer .container {
 	margin: 0px 0px 0px 0px;
 	width: 100%;
+	position: relative;
+	text-align: justify;
+	padding: 25px 25px;
+	top: -460px;
 }
 
 
@@ -266,7 +280,7 @@ a:hover {
  
     width: 100%;
     text-align: center;
-    height: 400px;
+    height: 460px;
   	}
   	#leftcolumn {
 		display: none;
@@ -303,12 +317,12 @@ a:hover {
 	p1 {
 	font-size: 18px;
 	font-family: 'Roboto', sans-serif;
-	color: rgb(14,65,80)
+	color: rgb(14,65,80);
 	font-weight: lighter;
 	padding: 60px 20px 20px 20px;
 	text-align: center;
 	}
-
+}
 @media (max-width: 820px) {
 	.box-contact {
 		padding: 40px 20px 0px 20px ;
@@ -330,7 +344,7 @@ a:hover {
 	p1 {
 	font-size: 18px;
 	font-family: 'Roboto', sans-serif;
-	color: rgb(14,65,80)
+	color: rgb(14,65,80);
 	font-weight: lighter;
 	padding: 60px 20px 20px 20px;
 	text-align: center;
@@ -372,7 +386,7 @@ a:hover {
 	p1 {
 	font-size: 18px;
 	font-family: 'Roboto', sans-serif;
-	color: rgb(14,65,80)
+	color: rgb(14,65,80);
 	font-weight: lighter;
 	padding: 60px 20px 20px 20px;
 	text-align: center;
@@ -443,6 +457,3 @@ color: rgba(100,0,150,0.8);
 .list-inline i:hover { /* i stands for the icons*/
 color: rgba(0,0,230,0.8);
  }
-
-
-
