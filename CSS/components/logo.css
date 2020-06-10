@@ -1,15 +1,15 @@
 .logo { 
-	max-width: 20%;
+	/*max-width: 20%;*/
 	display: inline-block ;
 }
 
 .KUL {
-	max-width: 25%;
+	max-width: 20%;
 	margin: -5% -20% 0% 85%;
 }
 
 .KSOM {
-	max-width: 15%;
+	max-width: 10%;
 	margin: -8% 0% 0% 90%;
 	border-radius: 4px;
 }
@@ -20,21 +20,26 @@
 } 
 
 .ieseg {
-	max-width: 25% ;
+	max-width: 20% ;
 	background-color: white;
 	padding: 5px;
 	margin: -5% -20% 0% 85%;
 }
 
 .mines {
-
+	max-width: 15%;
 	padding: 5px;
 	margin: 0% -20% 0% 85%;
 }
 
 .hollandbikes {
+	max-width: 20%;
 	padding: 5px;
 	margin: -4% 20% 0% 80%;
+}
+
+.mcdo {
+	max-width: 15%;
 }
 
 .python {
