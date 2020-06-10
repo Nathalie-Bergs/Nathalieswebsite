@@ -113,6 +113,16 @@ h6 {
 	padding: 25px 0px 0px 0px;
  }
 
+/*text over images in passions */
+h7 {
+	font-family: 'Hind', sans-serif;
+	color: red;
+	font-size: 15px;
+	font-weight: lighter;
+	text-align: center;
+	padding: 10px auto 10px auto;
+}
+
 /*
 a {
 	font-family: 'Roboto', sans-serif;
@@ -226,7 +236,26 @@ a:hover {
 
 .indent{
 	list-style-position: inside;
+	text-indent: 15px ;
 }
+
+.tennis {
+	background-image: url(../images/tennis.jpg);
+	opacity: 0.5;
+	color: black;
+	margin: 0px 15px 0px 15px;
+	padding: 60px 0px 350px 0px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: -10;
+} 
+
+.tennis .container {
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+}
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
