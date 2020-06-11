@@ -2,14 +2,14 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700|Noto+Sans+KR:400,700|PT+Sans:400,700|Roboto:400,700&display=swap);
 
-@import url("My Website/CSS/components/container.css");
-@import url("My Website/CSS/components/avatar.css");
-@import url("My Website/CSS/components/button.css");
-@import url("My Website/CSS/components/banner.css");
-@import url("My Website/CSS/components/navbar.css");
-@import url("My Website/CSS/components/figure.css");
-@import url("My Website/CSS/components/timelinecopy.css");
-@import url("My Website/CSS/components/logo.css");
+@import url("./components/container.css");
+@import url("./components/avatar.css");
+@import url("./components/button.css");
+@import url("./components/banner.css");
+@import url("./components/navbar.css");
+@import url("./components/figure.css");
+@import url("./components/timelinecopy.css");
+@import url("./components/logo.css");
 
 
 /* Colors and fonts */
