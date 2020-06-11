@@ -1,3 +1,6 @@
+if (id==='') {document.getElementById("Experience").style.display = "none";
+				document.getElementById("about").style.display = "none";}
+	else {document.getElementById(id).style.display ="none"}
 
 
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700|Noto+Sans+KR:400,700|PT+Sans:400,700|Roboto:400,700&display=swap);
@@ -287,7 +290,7 @@ a:hover {
 }
 
 .passionTitle{
-	padding: 33% 0 10px 0;
+	padding: 3% 0 0px 0;
 	color: rgb(14,65,80);
 	text-align: left;
 }
@@ -303,7 +306,7 @@ a:hover {
 
 #food {
   display: none;
-  z-index: 3;
+  z-index: 1;
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 

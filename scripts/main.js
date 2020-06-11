@@ -15,9 +15,9 @@ function mouseOut(id) {
 	if (id==='') {document.getElementById("Experience").style.display = "none";
 				document.getElementById("about").style.display = "none";}
 	else {document.getElementById(id).style.display ="none"}
+
+	if (id==='') {document.getElementById("food").style.display = "none"}
+	else {document.getElementById(id).style.display ="none"}
 }
 
 
-function mouseOn(id) {
-	document.getElementById(id).style.display = "block";
-}
