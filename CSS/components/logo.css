@@ -35,11 +35,12 @@
 .hollandbikes {
 	max-width: 20%;
 	padding: 5px;
-	margin: -4% 20% 0% 0%;
+	margin: 40px 20% 0px 240px;
 }
 
 .mcdo {
 	max-width: 15%;
+	margin: -80px 0px 0px 650px;
 }
 
 .python {
@@ -52,7 +53,25 @@
 	max-width: none;
 }
 
+@media screen and (max-width: 1000px) {
+	.hollandbikes {
+		margin: 40px 20% 0px 140px;
+		max-width: 30%
+	}
+
+@media screen and (max-width: 820px) {
+	.hollandbikes {
+		max-width: 30%
+	}
+
+@media screen and (max-width: 720px) {
+	.hollandbikes {
+		display: none;
+	}	
+
 @media screen and (max-width: 600px) {
 	.logo {
 		display: none;
 	}
+}
+

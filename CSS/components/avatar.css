@@ -7,6 +7,13 @@
 	margin-top: 40px;
 }
 
+@media (max-width: 1150px) {
+	.avatar {
+		margin-left: 290px;
+		margin-top: 40px;
+	}
+}
+
 @media (max-width: 1000px) {
 	.avatar {
 		margin-left: 200px;
