@@ -8,13 +8,9 @@
 }
 
 .avatar1 { 
-	max-width: 200px;
-	border-radius: 50% ; 
-	display: block ;
-	margin-left: 200px;
-	margin-right: auto;
-	margin-top: 40px;
+	display: none
 }
+
 
 @media (max-width: 1150px) {
 	.avatar {
@@ -28,13 +24,26 @@
 		margin-left: 200px;
 		margin-top: 40px;
 	}
+}
 
 @media (max-width: 820px) {
 	.avatar {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 40px;
 	}
+}
+
+@media (max-width: 800px) {
+	.avatar1 { 
+		max-width: 200px;
+		border-radius: 50% ; 
+		display: block ;
+		margin-left: 200px;
+		margin-right: auto;
+		margin-top: 40px;
+	}
+}
 
 @media (max-width: 600px) {
 	.avatar1 { 
@@ -45,3 +54,4 @@
 		margin-right: auto;
 		margin-top: 40px;
 	}
+}
