@@ -274,7 +274,7 @@ a:hover {
 }
 
 .passionImage3{
-	background-image:linear-gradient(0deg, rgba(225,225,225,0.5) 0%,rgba(225,225,225,0.5) 100%), url(../images/amigas.jpg);
+	background-image:linear-gradient(0deg, rgba(225,225,225,0.5) 0%,rgba(225,225,225,0.5) 100%), url(../images/friends3.jpg);
 	opacity: 0.5;
 	height: 460px;
 	background-size: cover;
@@ -282,7 +282,23 @@ a:hover {
 }
 
 .passionImage4{
-	background-image:linear-gradient(0deg, rgba(225,225,225,0.5) 0%,rgba(225,225,225,0.5) 100%), url(../images/asperges.jpg);
+	background-image:linear-gradient(0deg, rgba(225,225,225,0.5) 0%,rgba(225,225,225,0.5) 100%), url(../images/nature.jpg);
+	opacity: 0.5;
+	height: 460px;
+	background-size: cover;
+	background-position: center;
+}
+
+.passionImage5{
+	background-image:linear-gradient(0deg, rgba(225,225,225,0.5) 0%,rgba(225,225,225,0.5) 100%), url(../images/cultures.jpg);
+	opacity: 0.5;
+	height: 460px;
+	background-size: cover;
+	background-position: center;
+}
+
+.passionImage6{
+	background-image:linear-gradient(0deg, rgba(225,225,225,0.5) 0%,rgba(225,225,225,0.5) 100%), url(../images/amigas.jpg);
 	opacity: 0.5;
 	height: 460px;
 	background-size: cover;
@@ -304,10 +320,12 @@ a:hover {
 	top: -460px;
 }
 
+/*
 #food {
   display: none;
   z-index: 1;
-}
+}*/
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
 @media (max-width: 1150px) {
