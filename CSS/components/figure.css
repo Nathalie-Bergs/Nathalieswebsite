@@ -5,8 +5,10 @@
 }
 
 .group {
-	position: relative;
-	max-width: 50%;
+	/*position: relative;
+	max-width: 50%;*/
+	position: absolute;
+	height: 450px;
 	z-index: -5;
 	display: inline-block;
 	float: left;
