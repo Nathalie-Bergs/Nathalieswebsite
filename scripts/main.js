@@ -14,7 +14,16 @@ function mouseOut(id) {
 				document.getElementById("about").style.display = "none";}
 	else {document.getElementById(id).style.display ="none"}
 }
+ 
+function overPassion(id) {
+	document.getElementById(id+"1").style.display = "none";
+	document.getElementById(id+"2").style.display = "block";
+}
 
+function outPassion(id) {
+	document.getElementById(id+"2").style.display = "none";
+	document.getElementById(id+"1").style.display = "block";
+}
 
 
 
