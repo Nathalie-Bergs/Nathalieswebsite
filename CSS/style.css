@@ -131,6 +131,10 @@ a:hover {
 
 /* Custom design with class*/
 
+#PassionTitle1 {
+	color:rgb(60,166,172); 
+	padding: 60% 0px 0px 0px
+}
 
 #lineCompetences {
 	width:100%; 
@@ -230,7 +234,7 @@ a:hover {
 	/*display: inline-block;*/
 }
 #motivation {
-	margin: 40px 0px;
+	margin: 40px 0px 60px 0px;
 	padding: 20px 20px 40px 20px;
 	text-align: justify;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
@@ -272,7 +276,7 @@ a:hover {
   width: 33.33%;
   padding: 30px 0px 10px 0px;
   background-color: rgb(60,166,172);
-  height: 290px; /* Should be removed. Only for demonstration */
+  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -356,6 +360,16 @@ a:hover {
 	text-align: justify;
 	padding: 25px 25px;
 	top: -460px;
+}
+
+#respectful2 {
+	display: none;
+	z-index:1;
+}
+
+#openminded2 {
+	display: none;
+	z-index:1;
 }
 
 #honest2 {
@@ -557,11 +571,11 @@ a:hover {
 	}
 
 	#language { 		/*columns in about page competences*/
-		height: 290px
+		height: 300px
 	}
 
 	#technical {		/*columns in about page competences*/
-		height: 290px		
+		height: 300px		
 	}
 
 	#soft {				/*columns in about page competences*/
@@ -588,9 +602,6 @@ a:hover {
 		padding: 20px 80px 20px 60px ;
 	}
 
-}
-
-@media screen and (max-width: 800px) {
 	.col-container {
 		margin: 0px 0% 80px 0%;
 	}
@@ -599,9 +610,15 @@ a:hover {
 	    width: 100%;
 	    text-align: center;
 	    height: 460px;
+	    margin-top:10px;
   	}
 
-  	#line {
+  	#PassionTitle1 {
+		color:rgb(60,166,172); 
+		padding: 30% 0px 0px 0px
+	}
+
+  	#lineCompetences {
   		display: none;
   	}
   	#leftcolumn { 		/*columns in index page*/

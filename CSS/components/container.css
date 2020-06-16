@@ -4,6 +4,17 @@
 	padding: 0px;
 	}
 
+
+#Strengths {
+	padding-bottom: 200px;
+	margin-bottom: 20px;
+}
+
+#Values {
+	padding-bottom: 200px;
+	margin-bottom: 40px;
+}
+
 /*
 @media (max-width: 80%) {
 	.container {
@@ -32,6 +43,10 @@
 	.container {
 		width: 600px;
 		margin: 40px auto;
+	}
+	#Strengths {
+		padding-bottom: 0px;
+		margin-bottom: 20px;
 	}
 }
 
