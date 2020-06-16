@@ -127,7 +127,8 @@ a:hover {
 
 #PassionTitle1 {
 	color:rgb(60,166,172); 
-	padding: 60% 0px 0px 0px
+	padding: 60% 0px 0px 0px;
+	font-weight: 500;
 }
 
 #lineCompetences {
@@ -354,6 +355,21 @@ a:hover {
 	text-align: justify;
 	padding: 25px 25px;
 	top: -460px;
+}
+
+#perseverant2 {
+	display: none;
+	z-index:1;
+}
+
+#curious2 {
+	display: none;
+	z-index:1;
+}
+
+#communicative2 {
+	display: none;
+	z-index:1;
 }
 
 #respectful2 {

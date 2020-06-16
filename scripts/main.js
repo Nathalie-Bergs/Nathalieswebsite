@@ -2,7 +2,6 @@ function mouseOver(id){
 	document.getElementById(id).style.display = "block";
 	if (id==="Experience") {
 		document.getElementById("about").style.display = "none"; 
-		document.getElementById("motivation").style.display = "none";
 	}
 	else { 
 		document.getElementById("Experience").style.display = "none";
