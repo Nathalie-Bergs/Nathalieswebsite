@@ -294,7 +294,7 @@ h6 {
 	height: 460px;
 	background-size: cover;
 	background-position: center;
-	image-orientation: 0deg;
+	transform: rotate(0deg);
 }
 
 .passionImage3{
@@ -303,6 +303,7 @@ h6 {
 	height: 460px;
 	background-size: cover;
 	background-position: center;
+	transform: rotate(0deg);
 }
 
 .passionImage4{
@@ -311,6 +312,7 @@ h6 {
 	height: 460px;
 	background-size: cover;
 	background-position: center;
+	transform: rotate(0deg);
 }
 
 .passionImage5{
@@ -319,6 +321,7 @@ h6 {
 	height: 460px;
 	background-size: cover;
 	background-position: center;
+	transform: rotate(0deg);
 }
 
 .passionImage6{
@@ -327,6 +330,7 @@ h6 {
 	height: 460px;
 	background-size: cover;
 	background-position: center;
+	transform: rotate(0deg);
 }
 
 .passionTitle{
