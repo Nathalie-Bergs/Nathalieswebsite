@@ -285,7 +285,7 @@ h6 {
 	height: 460px;
 	background-size: cover;
 	background-position: center;
-	image-orientation: initial;
+	image-orientation: from-image;
 }
 
 .passionImage2{
@@ -294,7 +294,7 @@ h6 {
 	height: 460px;
 	background-size: cover;
 	background-position: center;
-	image-orientation: initial;
+	image-orientation: from-image;
 	/*transform: rotate(0deg);*/
 }
 
